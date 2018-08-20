@@ -1,6 +1,6 @@
 const katzDeliLine = [];
 
-function currentLine (x, y) {
+function currentLine (x) {
   let line = [];
   if (x.length === 0) {
     return "The line is currently empty."
