@@ -23,13 +23,13 @@ function takeANumber (katzDeliLine, name) {
 //Analogy based explanation, it's like an electronic sign at the DMV saying where your position is and what your waiting time is going to be. If delis are like this one in particular, it could be a very long deli line.
 //This one is pretty straight forward, it accepts a named parameter (in this case our global variable), and the name of the person we are going to serve. 
 
-function nowServing (x, y) {
+function nowServing(x, y) {
   if (x.length === 0) {
-    return "There is nobody waiting to be served!"
+    return 'There is nobody waiting to be served!'
   } else {
-    let name = x[0]
-    x.splice(0, 1);
-    return "Currently serving " + name + "."
+    var name = x[0];
+    x.splice(0, 1)
+    return 'Currently serving ' + name + ".";
   }
 }
 
