@@ -5,8 +5,12 @@ const katzDeliLine = [];
 
 
 function takeANumber(katzDeliLine) {
+  // We want to keep track of the last number
+  // We want to add that number to the katzDeliline
+  // We also need to increment the last
   var num = [];
   return "Welcome! You're ticket number " + num[1] 
+  num++
 }
 
 // takeANumber(katzDeliLine) => "Welcome! You're ticket number #1" [1]
