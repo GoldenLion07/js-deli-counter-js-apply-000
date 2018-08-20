@@ -1,5 +1,27 @@
 const katzDeliLine = [];
 
+
+
+
+
+function takeANumber(katzDeliLine) {
+  var katzDeliLien = [];
+  
+}
+
+// takeANumber(katzDeliLine) => "Welcome! You're ticket number #1" [1]
+// takeANumber(katzDeliLine) => "Welcome! You're ticket number #2" [1,2]
+
+// nowServing(katzDeliLine) => "Currently serving: #1" [2]
+// nowServing(katzDeliLine) => "Currently serving: #2" []
+
+ // takeANumber(katzDeliLine) => "Welcome! You're ticket number #3" [3]
+
+
+
+
+
+
 function currentLine (x) {
   let line = [];
   if (x.length === 0) {
