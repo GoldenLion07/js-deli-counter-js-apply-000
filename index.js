@@ -5,8 +5,9 @@ const katzDeliLine = [];
 
 
 function takeANumber(katzDeliLine) {
-  var katzDeliLien = [];
-  
+  for (var i = 0; i < katzDeliLine.length: i++) {
+    return "Welcome!" + "You're ticket number" + katzDeliLine.length[i] + '.'
+  }
 }
 
 // takeANumber(katzDeliLine) => "Welcome! You're ticket number #1" [1]
